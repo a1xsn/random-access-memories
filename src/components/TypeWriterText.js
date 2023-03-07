@@ -36,7 +36,7 @@ span{
 }
 
 `
-const SubTitle = styled.div`
+const SubTitle = styled.p`
 font-size: ${props => props.theme.fontmd};
 color: ${props => `rgba(${props.theme.bodyRgba}, 0.6)`};
 font-weight: 600;
