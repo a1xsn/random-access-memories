@@ -21,6 +21,7 @@ font-size: ${props => props.theme.fontsm};
 display: flex;
 justify-content: space-between;
 align-items: center;
+text-rendering: optimizeLegibility;
 `
 
 const Reveal = styled.div`

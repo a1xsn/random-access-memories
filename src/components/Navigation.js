@@ -108,6 +108,7 @@ list-style: none;
 const MenuItem = styled.h3`
 margin: 0 1rem;
 color: white;
+font-synthesis: none;
 cursor: pointer;
 
 

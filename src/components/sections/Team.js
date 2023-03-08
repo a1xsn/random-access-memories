@@ -7,9 +7,15 @@ import img3 from '../../assets/Bilita_Totem_with_Shadow.png'
 
 const Section = styled.section`
 min-height: 100vh;
-width: 100vw;
+width: 100%;
 background-color: ${props => props.theme.body};
 position: relative;
+padding-bottom: 0%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 `
 
 const Title = styled.h1`
@@ -21,6 +27,7 @@ justify-content: center;
 align-items: center;
 margin: 0rem auto;
 width: fit-content;
+font-synthesis: none;
 
 @media (max-width: 40em) {
   font-size: ${props => props.theme.fontxl};
@@ -33,6 +40,7 @@ align-self: center;
 width: 80%;
 margin: 1rem auto;
 font-weight: 400;
+font-synthesis: none;
 
 @media (max-width: 64em){
   width: 100%;
@@ -116,6 +124,7 @@ text-transform: uppercase;
 color: ${props => props.theme.text};
 margin-top: 1rem;
 margin-bottom: 1rem;
+font-synthesis: none;
 `
 
 const Position = styled.a`
@@ -128,6 +137,7 @@ font-weight: 400;
 margin-left: 1rem;
 margin-right: 1rem;
 margin-top: 1rem;
+font-synthesis: none;
 `
 
 const SmallDivider = styled.h1`
@@ -154,6 +164,7 @@ align-items: center;
 border-radius: 2px;
 color: white;
 margin: 0rem auto;
+font-synthesis: none;
 
 font-size: 0.5rem;
 line-height: 1;
@@ -183,13 +194,13 @@ const Team = () => {
     <Section id='team'>
       <Title><br className="sm:block hidden" />TIMELINE</Title>
       <Container>
-      <SubText> Every journey must come to an end. We designed Bilita Mpash as an emotional experience with a definitive endpoint. That's why we make the best effort to create the most memorable experience with low entry costs and without any financialization barriers of a regular collectibles collection. Bilita Mpash is open to everyone to visit and take part. </SubText>
+      <SubText> Every journey must come to an end. We designed Bilita Mpash as an emotional experience with a definitive endpoint. That's why we make the best effort to create the most memorable experience with low entry costs and without any barriers. Bilita Mpash is open for everyone to visit and join. </SubText>
       </Container>
       
       <Container>
-        <MemberComponent img={img2} name="I: DREAM" timelinebadge="SOON" position="Mint launch. Get your Totem to enter The Island and start exploring. Return in some time and finish your journey." />
-        <MemberComponent img={img3} name="II: AWAKENING" timelinebadge="TBA" position="The dream ends, and The Island awakens and reveals itself in full. Every member of The Tribe who finished The Dream and collected a secret phrase joins The Flowers Festival." />
-        <MemberComponent img={img1} name="III: LIFE" timelinebadge="TBA" position="The Festival unites The Tribe in a weekend-long experience. After it finishes, The Island disappears, but many mysteries remain. It's up to you how fast The Island reveals them all before it returns back to the dream." />
+        <MemberComponent img={img2} name="I: DREAM" timelinebadge="SOON" position="Mint launch. Get your Totem to enter The Island and start exploring. Return some time later and finish your journey." />
+        <MemberComponent img={img3} name="II: AWAKENING" timelinebadge="TBA" position="The dream ends, The Island awakens and reveals itself in full. Every member of The Tribe who finished The Dream and collected a key joins The Flowers Festival." />
+        <MemberComponent img={img1} name="III: LIFE" timelinebadge="TBA" position="The Festival unites The Tribe in a weekend-long experience. Soon The Island will disappear, but many mysteries remain. It's up to you how fast The Island reveals them all before it returns back to sleep." />
       </Container>
     </Section>
   )

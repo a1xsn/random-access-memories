@@ -135,7 +135,7 @@ const Footer = () => {
             <a href="https://discord.gg/Z4BmvZs973" target={'_blank'} rel="noopener noreferrer">
               <Discord />
             </a>
-            <a href="http://twitter.com/thinkwithpink" target={'_blank'} rel="noopener noreferrer">
+            <a href="https://twitter.com/bilitampash_xyz" target={'_blank'} rel="noopener noreferrer">
               <Twitter />
             </a>
             <a href="http://instagram.com/thinkpink_brand" target={'_blank'} rel="noopener noreferrer">
@@ -158,7 +158,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Bilita Mpash. All Rights Reserved.
         </span>
         <span>
-          Made by <a href="http://thinkwithpink.com" target="_blank" rel="noopener noreferrer">
+          Created by <a href="http://thinkwithpink.com" target="_blank" rel="noopener noreferrer">
             ThinkPink
           </a>
         </span>

@@ -19,6 +19,7 @@ transition: all 0.2s ease;
 position: relative;
 border-bottom: 0;
 text-decoration: none;
+font-synthesis: none;
 
 @media (max-width: 48em){
   padding: 1rem 2rem;
@@ -55,13 +56,12 @@ const Section = styled.section`
 width: 100vw;
 height: 25rem;
 position: relative;
-
+border-top-width: 0;
 background-color: ${props => `rgba(${props.theme.textRgba}, 0.9)`};
 
 display: flex;
 justify-content: center;
 align-items: center;
-
 overflow: hidden;
 
 @media (max-width: 48em) {
@@ -103,6 +103,7 @@ z-index: 10;
 width: 35%;
 text-transform: capitalize;
 text-shadow: 1px 1px 2px ${props => props.theme.body};
+font-synthesis: none;
 
 @media (max-width: 64em) {
   width: 40%;

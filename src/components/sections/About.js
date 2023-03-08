@@ -61,6 +61,7 @@ align-self: flex-start;
 width: 80%;
 margin: 0 auto;
 text-shadow: 2px;
+font-synthesis: none;
 
 @media (max-width: 64em){
   width: 100%;
@@ -82,6 +83,7 @@ width: 80%;
 margin: 1rem auto;
 font-weight: 400;
 text-shadow: 2ch;
+font-synthesis: none;
 
 @media (max-width: 64em){
   width: 100%;
@@ -103,6 +105,7 @@ align-self: flex-start;
 width: 80%;
 margin: 1rem auto;
 font-weight: 400;
+font-synthesis: none;
 
 @media (max-width: 64em){
   width: 100%;

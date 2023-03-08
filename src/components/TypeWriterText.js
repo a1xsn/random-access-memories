@@ -9,6 +9,7 @@ text-transform: uppercase;
 width: 88%;
 color: ${props => props.theme.text};
 align-self: flex-start;
+font-synthesis: none;
 
 span{
     text-transform: lowercase;
@@ -44,6 +45,7 @@ margin-top: 1rem;
 margin-bottom: 1rem;
 width: 80%;
 align-self: flex-start;
+font-synthesis: none;
 
 @media (max-width: 40em) {
     font-size: ${props => props.theme.fontmd};
@@ -57,6 +59,7 @@ align-self: flex-start;
 
 const ButtonContainer = styled.div`
 align-self: flex-start;
+text-rendering: optimizeLegibility;
 
 @media (max-width: 48em) {
     align-self: center;

@@ -62,6 +62,7 @@ align-self: flex-start;
 width: 80%;
 margin: 0 auto;
 text-shadow: 2px;
+font-synthesis: none;
 
 @media (max-width: 64em){
   width: 100%;
@@ -83,6 +84,7 @@ width: 80%;
 margin: 1rem auto;
 font-weight: 400;
 text-shadow: 2px;
+font-synthesis: none;
 
 @media (max-width: 64em){
   width: 100%;
@@ -104,6 +106,7 @@ align-self: flex-start;
 width: 80%;
 margin: 1rem auto;
 font-weight: 400;
+font-synthesis: none;
 
 @media (max-width: 64em){
   width: 100%;
@@ -147,7 +150,7 @@ const StageII = () => {
             The Dream is not supposed to last forever
           </SubText>
           <SubTextLight>
-            Time to wake up. You are now invited to join The Flowers Festival. First, the Island rises from under the water and transforms from the inside. Then, with all the collected knowledge in our hands, we begin to create - The Flowers Festival starts and initiates a new phase of the Tribe's life. 
+          Time to wake up. You are now invited to join The Flowers Festival. At first, the Island rises from under the water and transforms from the inside. Then, with all the collected knowledge in our hands, we begin to create - The Flowers Festival starts and initiates a new phase of the Tribe's life. 
           </SubTextLight>
           <ButtonContainer>
           <ThemeProvider theme={light}>

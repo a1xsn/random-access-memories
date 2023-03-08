@@ -6,7 +6,6 @@ import Accordion from '../Accordion'
 
 const Section = styled.section`
 min-height: 100vh;
-height: auto;
 width: 100vw;
 background-color: ${props => props.theme.body};
 position: relative;
@@ -22,6 +21,7 @@ const Title = styled.h1`
 font-size: ${props => props.theme.fontxxl};
 text-transform: uppercase;
 color: ${props => props.theme.text};
+font-synthesis: none;
 
 margin: 1rem auto;
 border-bottom: 2px solid ${props => props.theme.body};
@@ -92,17 +92,17 @@ useLayoutEffect(() => {
       <Container>
         <Box>
         <Accordion title="IS THIS A GAME, AN NFT COLLECTION, OR AN ART PROJECT?">
-        Bilita Mpash - is a community-building event that includes ERC-1155 collectibles, a digital fashion collection, and an interactive narrative-driven metaverse experience made with 8XR technologies. The title "Bilita Mpash" comes from Bantu, a group of African languages. It roughly translates as "amazing, pleasant dream, the opposite of a nightmare."
+        Bilita Mpash - is a community-building event that includes ERC-1155 collectibles, an interactive narrative-driven metaverse experience made with 8XR technologies, and a future digital fashion collection. The title "Bilita Mpash" comes from Bantu, a group of African languages. It roughly translates as "amazing, pleasant dream, the opposite of a nightmare.”
         </Accordion>
         <Accordion title="HOW TO PARTICIPATE, AND WHAT IS THE TOTEM?">
-        To participate in Bilita Mpash, mint The Totem - an ERC-1155 collectible. The mint price is free. After you mint The Totem, you will receive a link to enter The Island in the 8XR application. It's available across many browsers and devices, but make sure to connect the wallet that holds The Totem when you enter. In case you get lost, here's a little introduction to how to use the 8XR platform.
+        To participate in Bilita Mpash, mint The Totem - it's an ERC-1155 collectible NFT on Polygon, with 5 different editions. The mint price is 1 MATIC. After you mint The Totem, you will receive a link to enter The Island using the 8XR application. It's available across many browsers and devices, but make sure to connect the wallet that holds The Totem when you enter. In case you get lost, check out our Discord for all the details.
         </Accordion>
         <Accordion title="WHAT WILL HAPPEN ONCE I GET TO THE ISLAND?">
-        Once you are inside - The Island is yours to explore. That is a single-player experience - but only until The Flowers Festival starts. We've prepared lots of hidden secrets and zones for you to explore. Note that The Island will be fully revealed in three steps (the schedule will be announced later) - with each new step opening up a new section of The Island.  
+        Once you are inside - The Island is yours to explore. That is a single-player experience, until The Flowers Festival starts. We've prepared lots of hidden secrets and zones for you to explore: The Island will be fully revealed in three steps - with each new step opening up a new section of The Island.  
         <br className="sm:block hidden" />
         To enter The Flowers Festival, you need to: <br className="sm:block hidden" />
-        a. Participate in three distinct stages - explore The Island as whole <br className="sm:block hidden" />
-        b. Capture a secret word in the final section of The Island - that's a part of a passphrase that will allow you to join The Festival
+        A. Explore The Island from start to finish. <br className="sm:block hidden" />
+        B. Capture a key in the final section of The Island - a part of a passphrase that will allow you to join The Festival later.
         </Accordion>
         </Box>
         <Box>
@@ -110,10 +110,10 @@ useLayoutEffect(() => {
         The Flowers Festival is a weekend-long multiplayer experience. That's all we're ready to say for now.
         </Accordion>
         <Accordion title="WHAT WILL HAPPEN AFTER THE FESTIVAL?">
-        We actually don't know. Stay tuned.
+        Stay tuned.
         </Accordion>
         <Accordion title="CAN I MAKE MONEY FROM YOUR COLLECTION AFTERWARDS?">
-        Although we'll be happy to see Bilita Mpash gain traction on NFT marketplaces, our initial intent is the opposite. First and foremost, we want to create a narrative experience that propels deep emotional reactions and inspires community building of like-minded people who appreciate beauty in different forms and manifestations. In any case, we knowingly cut ourselves from any royalties.
+        Although we'll be happy to see Bilita Mpash gain traction on NFT marketplaces, our initial intent is the opposite. First and foremost, we want to create a narrative experience that propels deep emotional reactions and inspires community building of like-minded people who appreciate beauty in different forms and manifestations.
         </Accordion>
         </Box>
       </Container>

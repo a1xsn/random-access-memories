@@ -63,6 +63,7 @@ align-self: flex-start;
 width: 80%;
 margin: 0 auto;
 text-shadow: 2px;
+font-synthesis: none;
 
 @media (max-width: 64em){
   width: 100%;
@@ -84,6 +85,7 @@ width: 80%;
 margin: 1rem auto;
 font-weight: 400;
 text-shadow: 2px;
+font-synthesis: none;
 
 @media (max-width: 64em){
   width: 100%;
@@ -105,6 +107,7 @@ align-self: flex-start;
 width: 80%;
 margin: 1rem auto;
 font-weight: 400;
+font-synthesis: none;
 
 @media (max-width: 64em){
   width: 100%;
@@ -131,7 +134,7 @@ const EXR = () => {
             Explore the most powerful metaverse graphic web engine
           </SubText>
           <SubTextLight>
-          The Island is built with 8XR: they make the most powerful metaverse graphic web engine. The Island of Bilita Mpash aims to showcase the full potential of 8XR tech. After you mint The Totem, it grants you access to the opening parts of The Island – with other sections revealed later. The Island shows itself in full only to those members of the Tribe who finish the journey inside the dream and collect a secret phrase at the end of the dream.
+          The Island is built with 8XR: the provider of the most powerful metaverse graphic web engine. The Island of Bilita Mpash aims to showcase the full potential of 8XR tech. After you mint The Totem, it grants you access to the entry sections of The Island - with other sections to be revealed later. The Island shows itself in full only to those members of the Tribe who finish the journey inside the dream and collect a key at the end of the dream.
           </SubTextLight>
         </Box>
         <Box><img src={"https://uploads-ssl.webflow.com/62963f02590ef4762888dcfc/62b19fb8111148850b0399e4_8XR_logotype_white-p-1080.png"} /> </Box>
