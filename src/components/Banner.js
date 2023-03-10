@@ -137,7 +137,7 @@ const Banner = () => {
         </ImgContainer>
         <Title>We Are <br /> THINKPINK</Title>
         <BtnContainer>
-        <JoinNow as="a" href="https://www.thinkwithpink.com/bilitampash">
+        <JoinNow as="a" href="https://www.thinkwithpink.com/bilitampash" target="_blank" rel="noopener noreferrer">
             About Us
         </JoinNow>
         </BtnContainer>
