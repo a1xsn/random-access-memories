@@ -130,7 +130,6 @@ const Footer = () => {
       <Banner />
       <Container>
         <Left> 
-          <Item><Logo /></Item>
           <IconList>
             <a href="https://discord.gg/Z4BmvZs973" target={'_blank'} rel="noopener noreferrer">
               <Discord />
@@ -155,7 +154,7 @@ const Footer = () => {
       </Container>
       <Bottom>
         <span>
-          &copy; {new Date().getFullYear()} Bilita Mpash. All Rights Reserved.
+          &copy; {new Date().getFullYear()} All Rights Reserved
         </span>
         <span>
           Created by <a href="http://thinkwithpink.com" target="_blank" rel="noopener noreferrer">

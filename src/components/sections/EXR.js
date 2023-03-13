@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import xrbg from '../../assets/8xr_bgg.png'
 
 const Section = styled.section`
 min-height: 100vh;
@@ -9,7 +10,7 @@ justify-content: center;
 align-items: center;
 position: relative;
 
-background-image: url('https://uploads-ssl.webflow.com/62963f02590ef4762888dcfc/6387ee44c2795fdafce0d13f_Builder%20tool%20chrome%20dark-min.svg');
+background-image: url(${xrbg});
 background-size: cover;
 
     background-attachment: scroll;

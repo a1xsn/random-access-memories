@@ -5,6 +5,8 @@ import img1 from '../../assets/Bilita_Person_with_Shadow.png'
 import img2 from '../../assets/Bilita_Token_with_Shadow.png'
 import img3 from '../../assets/Bilita_Totem_with_Shadow.png'
 
+import upside from '../../assets/upside.png'
+
 const Section = styled.section`
 min-height: 100vh;
 width: 100%;
@@ -16,6 +18,27 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+
+background-image: url(${upside});
+background-size: cover;
+
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    position: relative;
+    z-index: 0;
+
+    &:before {
+        background: rgba(0, 0, 0, 0.6);
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
 `
 
 const Title = styled.h1`

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import LOGO from '../../assets/Logo.svg'
 import DOWN from '../../assets/down.svg'
+import introbg from '../../assets/intro.gif'
 
 const Section = styled.section`
 min-height: 100vh;
@@ -11,7 +12,7 @@ justify-content: center;
 align-items: center;
 position: relative;
 
-background-image: url('https://i.gifer.com/2yc7.gif');
+background-image: url(${introbg});
 background-size: cover;
 
     background-attachment: scroll;

@@ -98,7 +98,7 @@ const TypeWriterText = () => {
     </Title>
     <SubTitle>The Island is welcoming you. You are about to enter an event hidden from the outside world. To participate in Bilita Mpash, mint The Totem and become a member of The Tribe.</SubTitle>
     <ButtonContainer>
-    <Button as="a" text="Follow The Updates" link="https://twitter.com/thinkwithpink" target={'_blank'} rel="noopener noreferrer"/>
+    <Button as="a" text="Follow The Updates" link="https://twitter.com/bilitampash_xyz" target={'_blank'} rel="noopener noreferrer"/>
     </ButtonContainer>
  </>
   )
