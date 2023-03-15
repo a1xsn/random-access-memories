@@ -1,10 +1,5 @@
 import React, { useRef } from 'react'
 import styled, { keyframes } from 'styled-components'
-
-import img1 from '../../assets/Nfts/bighead.svg'
-import img2 from '../../assets/Nfts/bighead-1.svg'
-import img3 from '../../assets/Nfts/bighead-2.svg'
-import img4 from '../../assets/Nfts/bighead-3.svg'
 import ETH from '../../assets/icons8-ethereum-48.png'
 
 const Section = styled.section`

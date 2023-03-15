@@ -17,8 +17,6 @@ import img6 from '../assets/Nfts/bighead-5.svg'
 import img7 from '../assets/Nfts/bighead-6.svg'
 import img8 from '../assets/Nfts/bighead-7.svg'
 import img9 from '../assets/Nfts/bighead-8.svg'
-import img10 from '../assets/Nfts/bighead-9.svg'
-import img11 from '../assets/Nfts/bighead-10.svg'
 
 import Arrow from '../assets/Arrow.svg'
 

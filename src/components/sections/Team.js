@@ -5,7 +5,7 @@ import img1 from '../../assets/Bilita_Person_with_Shadow.png'
 import img2 from '../../assets/Bilita_Token_with_Shadow.png'
 import img3 from '../../assets/Bilita_Totem_with_Shadow.png'
 
-import upside from '../../assets/upside.png'
+import upside from '../../assets/bg_team.jpeg'
 
 const Section = styled.section`
 min-height: 100vh;
@@ -125,7 +125,7 @@ const ImageContainer = styled.div`
 width: 80%;
 margin: 0 auto;
 /*background-color: ${props => props.theme.carouselColor};*/
-background-color: #f8deea;
+background-image: linear-gradient(180deg, #f8deea, #4b9c8e);
 border: 1px solid ${props => props.theme.text};
 padding: 1rem;
 
