@@ -27,7 +27,6 @@ function App() {
         <Intro />
         <Navigation />
         <Home />
-        <Trailer />
         <About />
         <EXR />
         <StageII />

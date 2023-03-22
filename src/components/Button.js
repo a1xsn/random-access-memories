@@ -8,6 +8,7 @@ color: ${props => props.theme.body};
 outline: none;
 border: none;
 text-decoration: none;
+/* font-family: "Poppins", sans-serif;*/
 
 font-size: ${props => props.theme.fontsm};
 padding: 0.9rem 2.3rem;

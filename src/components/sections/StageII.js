@@ -24,7 +24,7 @@ background-size: cover;
     z-index: 0;
 
     &:before {
-        background: rgba(0, 0, 0, 0.4);
+        background: rgba(0, 0, 0, 0.3);
         content: "";
         height: 100%;
         left: 0;

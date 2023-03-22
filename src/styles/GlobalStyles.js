@@ -40,6 +40,10 @@ video {
   object-fit: cover;
 }
 
+.mobile {
+  font-family: "Poppins", sans-serif;
+}
+
 .content {
   position: absolute;
   width: 100%;

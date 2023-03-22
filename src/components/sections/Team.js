@@ -5,7 +5,7 @@ import img1 from '../../assets/Bilita_Person_with_Shadow.png'
 import img2 from '../../assets/Bilita_Token_with_Shadow.png'
 import img3 from '../../assets/Bilita_Totem_with_Shadow.png'
 
-import upside from '../../assets/bg_team.jpeg'
+import upside from '../../assets/fluid1.png'
 
 const Section = styled.section`
 min-height: 100vh;
@@ -30,7 +30,7 @@ background-size: cover;
     z-index: 0;
 
     &:before {
-        background: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.7);
         content: "";
         height: 100%;
         left: 0;

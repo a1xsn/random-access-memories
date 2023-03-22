@@ -141,7 +141,7 @@ background: ${props => props.theme.text};
 
 position: absolute;
 top: 2rem;
-left: 50%;
+left: 87%;
 transform: ${props => props.click ? `translateX(-50%) rotate (90deg)` : `translateX(-50%) rotate (0)` };
 
 display: none;
