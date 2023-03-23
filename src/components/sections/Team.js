@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import img1 from '../../assets/Bilita_Person_with_Shadow.png'
-import img2 from '../../assets/Bilita_Token_with_Shadow.png'
-import img3 from '../../assets/Bilita_Totem_with_Shadow.png'
+import img1 from '../../assets/s3.png'
+import img2 from '../../assets/s1.png'
+import img3 from '../../assets/s2.png'
 
 import upside from '../../assets/fluid1.png'
 
@@ -125,8 +125,8 @@ const ImageContainer = styled.div`
 width: 80%;
 margin: 0 auto;
 /*background-color: ${props => props.theme.carouselColor};*/
-background-image: linear-gradient(180deg, #f8deea, #4b9c8e);
-border: 1px solid ${props => props.theme.text};
+background-image: linear-gradient(180deg, #414c4d, #4b9c8e);
+border: 0px solid ${props => props.theme.text};
 padding: 1rem;
 
 border-radius: 20px;

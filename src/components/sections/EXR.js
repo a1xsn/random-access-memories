@@ -53,9 +53,10 @@ align-items: center;
 img{
   width: 80%;
   height: auto;
-  display: flex;
+  margin-left: 10%;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 `
 

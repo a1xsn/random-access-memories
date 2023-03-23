@@ -42,6 +42,7 @@ video {
 
 .mobile {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .content {
@@ -81,6 +82,7 @@ video {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+  overflow-x: visible;
 }
 `
 
