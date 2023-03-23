@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import CoverVideo from '../CoverVideo'
 import TypeWriterText from '../TypeWriterText'
-import BGVID from '../../assets/bg-vid2.gif'
+import BGVID from '../../assets/cover_home.gif'
 
 import CoverTotem from '../CoverTotem'
 
