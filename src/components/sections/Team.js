@@ -221,9 +221,9 @@ const Team = () => {
       </Container>
       
       <Container>
-        <MemberComponent img={img2} name="I: DREAM" timelinebadge="SOON" position="Mint launch. Get your Totem to enter The Island and start exploring. Return some time later and finish your journey." />
-        <MemberComponent img={img3} name="II: AWAKENING" timelinebadge="TBA" position="The dream ends, The Island awakens and reveals itself in full. Every member of The Tribe who finished The Dream and collected a key joins The Flowers Festival." />
-        <MemberComponent img={img1} name="III: LIFE" timelinebadge="TBA" position="The Festival unites The Tribe in a weekend-long experience. Soon The Island will disappear, but many mysteries remain. It's up to you how fast The Island reveals them all before it returns back to sleep." />
+        <MemberComponent img={img2} name="I: DREAM" timelinebadge="APRIL 12TH" position="The launch. Get your Totem to enter The Island and start exploring. Return some time later and finish your journey." />
+        <MemberComponent img={img3} name="II: AWAKENING" timelinebadge="Q3 2023" position="The dream ends, The Island awakens and reveals itself in full. Every member of The Tribe who finished The Dream and collected a key joins The Flowers Festival." />
+        <MemberComponent img={img1} name="III: LIFE" timelinebadge="Q4 2023" position="The Festival unites The Tribe in a weekend-long experience. Soon The Island will disappear, but many mysteries remain. It's up to you how fast The Island reveals them all before it returns back to sleep." />
       </Container>
     </Section>
   )

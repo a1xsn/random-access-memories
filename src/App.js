@@ -16,6 +16,9 @@ import EXR from './components/sections/EXR';
 import StageII from './components/sections/StageII';
 import Intro from './components/sections/Intro';
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Test from './components/Test';
+
 function App() {
 
   const { isSticky, element } = useSticky()
@@ -26,7 +29,6 @@ function App() {
       <ThemeProvider theme={light}>
         <Intro />
         <Navigation />
-        <Home />
         <About />
         <EXR />
         <StageII />
