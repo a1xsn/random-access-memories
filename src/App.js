@@ -29,6 +29,7 @@ function App() {
       <ThemeProvider theme={light}>
         <Intro />
         <Navigation />
+        <Home />
         <About />
         <EXR />
         <StageII />

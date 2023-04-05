@@ -71,8 +71,8 @@ const Home = () => {
   return (
     <Section id='home'>
       <Container>
-        <Box> <TypeWriterText /> </Box>
-        <Box> <CoverVideo /> </Box>
+        <Box> <TypeWriterText/> </Box>
+        <Box> <CoverVideo/> </Box>
 
       </Container>
     </Section>
