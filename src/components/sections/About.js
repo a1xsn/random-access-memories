@@ -153,7 +153,7 @@ const About = () => {
           </SubTextLight>
           <ButtonContainer>
           <ThemeProvider theme={light}>
-            <Button text="Join Our Discord" link="https://discord.gg/Z4BmvZs973"/>
+            <Button text="Follow The Updates" link="https://twitter.com/bilitampash_xyz"/>
           </ThemeProvider>
           </ButtonContainer>
         </Box>
