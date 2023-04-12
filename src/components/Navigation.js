@@ -208,12 +208,12 @@ const Navigation = ({ sticky }) => {
           <MenuItem onClick={() => scrollTo('faq')} >FAQ</MenuItem>
           <MenuItem> 
             <div class="mobile">
-            <Button text="APRIL 12TH" link="https://discord.gg/Z4BmvZs973" />
+            <Button text="GET YOUR TOTEM" link="https://mint.bilitampash.xyz" />
             </div>
           </MenuItem>
         </Menu>
           <div class="desktop">
-            <Button text="APRIL 12TH" link="https://discord.gg/Z4BmvZs973" />
+            <Button text="GET YOUR TOTEM" link="https://mint.bilitampash.xyz" />
           </div>
       </NavBar>
     </Section>

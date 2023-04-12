@@ -140,7 +140,7 @@ const Footer = () => {
             <a href="http://instagram.com/thinkpink_brand" target={'_blank'} rel="noopener noreferrer">
               <Instagram />
             </a>
-            <a href="http://opensea.io" target={'_blank'} rel="noopener noreferrer">
+            <a href="https://opensea.io/collection/bilita-mpash-nft" target={'_blank'} rel="noopener noreferrer">
               <OpenSea />
             </a>
           </IconList>

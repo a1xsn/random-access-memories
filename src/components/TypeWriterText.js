@@ -75,20 +75,20 @@ const TypeWriterText = () => {
   return (
  <>
     <Title>
-        The Island of <br className="sm:block hidden" /> Bilita Mpash is Here 
+        The Island of <br className="sm:block hidden" /> Bilita Mpash is LIVE 
         <Typewriter
         options={{
             autoStart: true,
             loop: true,
         }}
   onInit={(typewriter) => {
-    typewriter.typeString('<span class="text-1">join the tribe</span>')
+    typewriter.typeString('<span class="text-1">get the totem</span>')
   .pauseFor (2000)
   .deleteAll()
-  .typeString('<span class="text-2">join the tribe</span>')
+  .typeString('<span class="text-2">get the totem</span>')
   .pauseFor (2000)
   .deleteAll()
-  .typeString('<span class="text-3">join the tribe</span>')
+  .typeString('<span class="text-3">get the totem</span>')
   .pauseFor (2000)
   .deleteAll()
   .start()
@@ -96,9 +96,9 @@ const TypeWriterText = () => {
   }}
 />
     </Title>
-    <SubTitle>The Island is welcoming you. You are about to enter an event hidden from the outside world. To participate in Bilita Mpash, mint The Totem and become a member of The Tribe.</SubTitle>
+    <SubTitle>The Island is welcoming you. You are about to enter an event hidden from the outside world. To participate in Bilita Mpash, get The Totem and become a member of The Tribe.</SubTitle>
     <ButtonContainer>
-    <Button as="a" text="Follow The Updates" link="https://twitter.com/bilitampash_xyz" target={'_blank'} rel="noopener noreferrer"/>
+    <Button as="a" text="How To Join" link="https://mirror.xyz/a1xsn.eth/wmzzScgv8Jmv7gJhiWAc_LLhg9AasNZHFEIU71Rmj58" target={'_blank'} rel="noopener noreferrer"/>
     </ButtonContainer>
  </>
   )

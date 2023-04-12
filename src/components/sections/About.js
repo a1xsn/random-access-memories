@@ -153,7 +153,7 @@ const About = () => {
           </SubTextLight>
           <ButtonContainer>
           <ThemeProvider theme={light}>
-            <Button text="Follow The Updates" link="https://twitter.com/bilitampash_xyz"/>
+            <Button text="Get Your Totem" link="https://mint.bilitampash.xyz"/>
           </ThemeProvider>
           </ButtonContainer>
         </Box>
