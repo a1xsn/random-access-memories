@@ -1,6 +1,8 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { ThemeProvider } from 'styled-components'
 import xrbg from '../../assets/fluid2.jpg'
+import Button from '../Button'
+import {light} from '../../styles/Themes'
 
 const Section = styled.section`
 min-height: 100vh;
@@ -127,6 +129,21 @@ font-synthesis: none;
 }
 `
 
+const ButtonContainer = styled.div`
+align-self: flex-start;
+width: 80%;
+margin: 1rem auto;
+display: flex;
+
+@media (max-width: 64em){
+  width: 100%;
+
+  button{
+    margin: 0 auto;
+  }
+}
+`
+
 const EXR = () => {
   return (
     <Section>
@@ -141,6 +158,11 @@ const EXR = () => {
           <SubTextLight>
           The Island is built with 8XR: the provider of the most powerful metaverse graphic web engine. The Island of Bilita Mpash aims to showcase the full potential of 8XR tech. After you mint The Totem, it grants you access to the entry sections of The Island - with other sections to be revealed later. The Island shows itself in full only to those members of the Tribe who finish the journey inside the dream and collect a key at the end of the dream.
           </SubTextLight>
+          <ButtonContainer>
+          <ThemeProvider theme={light}>
+            <Button text="Enter The Island" link="https://8xr.io/s/BilitaMpash/view"/>
+          </ThemeProvider>
+          </ButtonContainer>
         </Box>
         <Box><a href="https://www.8xr.io"><img src={"https://uploads-ssl.webflow.com/62963f02590ef4762888dcfc/62b19fb8111148850b0399e4_8XR_logotype_white-p-1080.png"} /></a> </Box>
       </Container>
